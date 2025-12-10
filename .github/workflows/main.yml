@@ -38,8 +38,8 @@ jobs:
       run: mvn clean compile
       
     # 5. 运行测试
-    - name: Run Test 1 (L2023111174_9_Test1)
-      run: mvn -B test -Dtest=L2023111174_9_Test1
+    - name: Run Test 1 (L2023111174_9_Test)
+      run: mvn -B test -Dtest=L2023111174_9_Test
       
     # 6. （可选）生成测试报告
     - name: Generate test report
